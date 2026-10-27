@@ -1,0 +1,52 @@
+{
+  "bare": {
+    "BARE": ""
+  },
+  "bom": {
+    "﻿K": "v"
+  },
+  "crlf": {
+    "K": "v",
+    "L": "w"
+  },
+  "dup": {
+    "K": "2"
+  },
+  "empty_comment": {
+    "API_KEY": "# fill this in later"
+  },
+  "empty_comment2": {
+    "EMPTY_C2": "#c"
+  },
+  "empty_file": {},
+  "escapes": {
+    "A": "a\nb",
+    "B": "a\\nb"
+  },
+  "expand": {
+    "HOST": "db",
+    "URL": "db:5432"
+  },
+  "export": {
+    "KEY": "v"
+  },
+  "hash_in_value": {
+    "HASH": "Tr0ub4dor#3"
+  },
+  "hash_start": {
+    "COLOR": "#ff0000"
+  },
+  "multiline": {
+    "PEM": "-----BEGIN\nabc\n-----END"
+  },
+  "spaces": {
+    "K2": "v",
+    "KEY": "v"
+  },
+  "unterminated": {
+    "L": "next"
+  },
+  "value_comment": {
+    "V_C": "x"
+  }
+}
