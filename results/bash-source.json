@@ -1,0 +1,98 @@
+{
+  "bare": {
+    "exit": 0,
+    "values": {
+      "BARE": ""
+    }
+  },
+  "bom": {
+    "exit": 127,
+    "stderr": "cases/bom.env: line 1: $'\\357\\273\\277K=v': command not found",
+    "values": {}
+  },
+  "crlf": {
+    "exit": 0,
+    "values": {
+      "K": "v\r",
+      "L": "w\r"
+    }
+  },
+  "dup": {
+    "exit": 0,
+    "values": {
+      "K": "2"
+    }
+  },
+  "empty_comment2": {
+    "exit": 0,
+    "values": {
+      "EMPTY_C2": ""
+    }
+  },
+  "empty_comment": {
+    "exit": 0,
+    "values": {
+      "API_KEY": ""
+    }
+  },
+  "empty_file": {
+    "exit": 0,
+    "values": {}
+  },
+  "escapes": {
+    "exit": 0,
+    "values": {
+      "A": "a\\nb",
+      "B": "a\\nb"
+    }
+  },
+  "expand": {
+    "exit": 0,
+    "values": {
+      "HOST": "db",
+      "URL": "db:5432"
+    }
+  },
+  "export": {
+    "exit": 0,
+    "values": {
+      "KEY": "v"
+    }
+  },
+  "hash_in_value": {
+    "exit": 0,
+    "values": {
+      "HASH": "Tr0ub4dor#3"
+    }
+  },
+  "hash_start": {
+    "exit": 0,
+    "values": {
+      "COLOR": "#ff0000"
+    }
+  },
+  "multiline": {
+    "exit": 0,
+    "values": {
+      "PEM": "-----BEGIN\nabc\n-----END"
+    }
+  },
+  "spaces": {
+    "exit": 0,
+    "stderr": "cases/spaces.env: line 1: KEY: command not found",
+    "values": {
+      "K2": "v"
+    }
+  },
+  "unterminated": {
+    "exit": 2,
+    "stderr": "cases/unterminated.env: line 1: unexpected EOF while looking for matching `\"'",
+    "values": {}
+  },
+  "value_comment": {
+    "exit": 0,
+    "values": {
+      "V_C": "x"
+    }
+  }
+}

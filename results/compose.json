@@ -1,0 +1,114 @@
+{
+  "bare": {
+    "exit": 0,
+    "stderr": " Container dotenv_diff-t-run-3431d7919b0c Creating \n Container dotenv_diff-t-run-3431d7919b0c Created ",
+    "values": {
+      "BARE": ""
+    }
+  },
+  "bom": {
+    "exit": 0,
+    "stderr": " Container dotenv_diff-t-run-1b65d95d69ee Creating \n Container dotenv_diff-t-run-1b65d95d69ee Created ",
+    "values": {
+      "K": "v"
+    }
+  },
+  "crlf": {
+    "exit": 0,
+    "stderr": " Container dotenv_diff-t-run-b2065d6ed143 Creating \n Container dotenv_diff-t-run-b2065d6ed143 Created ",
+    "values": {
+      "K": "v",
+      "L": "w"
+    }
+  },
+  "dup": {
+    "exit": 0,
+    "stderr": " Container dotenv_diff-t-run-8b20fe3d71e9 Creating \n Container dotenv_diff-t-run-8b20fe3d71e9 Created ",
+    "values": {
+      "K": "2"
+    }
+  },
+  "empty_comment2": {
+    "exit": 0,
+    "stderr": " Container dotenv_diff-t-run-a5087d4c81b2 Creating \n Container dotenv_diff-t-run-a5087d4c81b2 Created ",
+    "values": {
+      "EMPTY_C2": "#c"
+    }
+  },
+  "empty_comment": {
+    "exit": 0,
+    "stderr": " Container dotenv_diff-t-run-1d42b6784e00 Creating \n Container dotenv_diff-t-run-1d42b6784e00 Created ",
+    "values": {
+      "API_KEY": "# fill this in later"
+    }
+  },
+  "empty_file": {
+    "exit": 0,
+    "stderr": " Container dotenv_diff-t-run-61c41866a90d Creating \n Container dotenv_diff-t-run-61c41866a90d Created ",
+    "values": {}
+  },
+  "escapes": {
+    "exit": 0,
+    "stderr": " Container dotenv_diff-t-run-81f250009cb8 Creating \n Container dotenv_diff-t-run-81f250009cb8 Created ",
+    "values": {
+      "A": "a\nb",
+      "B": "a\\nb"
+    }
+  },
+  "expand": {
+    "exit": 0,
+    "stderr": " Container dotenv_diff-t-run-03fe90e00b17 Creating \n Container dotenv_diff-t-run-03fe90e00b17 Created ",
+    "values": {
+      "HOST": "db",
+      "URL": "db:5432"
+    }
+  },
+  "export": {
+    "exit": 0,
+    "stderr": " Container dotenv_diff-t-run-323cd89520f5 Creating \n Container dotenv_diff-t-run-323cd89520f5 Created ",
+    "values": {
+      "KEY": "v"
+    }
+  },
+  "hash_in_value": {
+    "exit": 0,
+    "stderr": " Container dotenv_diff-t-run-bb7eaa666b53 Creating \n Container dotenv_diff-t-run-bb7eaa666b53 Created ",
+    "values": {
+      "HASH": "Tr0ub4dor#3"
+    }
+  },
+  "hash_start": {
+    "exit": 0,
+    "stderr": " Container dotenv_diff-t-run-02a07fc0043f Creating \n Container dotenv_diff-t-run-02a07fc0043f Created ",
+    "values": {
+      "COLOR": "#ff0000"
+    }
+  },
+  "multiline": {
+    "exit": 0,
+    "stderr": " Container dotenv_diff-t-run-ed4556bfb520 Creating \n Container dotenv_diff-t-run-ed4556bfb520 Created ",
+    "values": {
+      "PEM": "-----BEGIN\nabc\n-----END"
+    }
+  },
+  "spaces": {
+    "exit": 0,
+    "stderr": " Container dotenv_diff-t-run-dbd71f5442e5 Creating \n Container dotenv_diff-t-run-dbd71f5442e5 Created ",
+    "values": {
+      "K2": "v",
+      "KEY": "v"
+    }
+  },
+  "unterminated": {
+    "exit": 1,
+    "stderr": "failed to read cases/unterminated.env: line 3: unterminated quoted value \"unterminated",
+    "values": {}
+  },
+  "value_comment": {
+    "exit": 0,
+    "stderr": " Container dotenv_diff-t-run-8eeb0ff70079 Creating \n Container dotenv_diff-t-run-8eeb0ff70079 Created ",
+    "values": {
+      "V_C": "x"
+    }
+  }
+}

@@ -1,0 +1,136 @@
+{
+  "bare": {
+    "expanded": {
+      "BARE": ""
+    },
+    "plain": {
+      "BARE": ""
+    }
+  },
+  "bom": {
+    "expanded": {
+      "K": "v"
+    },
+    "plain": {
+      "K": "v"
+    }
+  },
+  "crlf": {
+    "expanded": {
+      "K": "v",
+      "L": "w"
+    },
+    "plain": {
+      "K": "v",
+      "L": "w"
+    }
+  },
+  "dup": {
+    "expanded": {
+      "K": "2"
+    },
+    "plain": {
+      "K": "2"
+    }
+  },
+  "empty_comment": {
+    "expanded": {
+      "API_KEY": ""
+    },
+    "plain": {
+      "API_KEY": ""
+    }
+  },
+  "empty_comment2": {
+    "expanded": {
+      "EMPTY_C2": ""
+    },
+    "plain": {
+      "EMPTY_C2": ""
+    }
+  },
+  "empty_file": {
+    "expanded": {},
+    "plain": {}
+  },
+  "escapes": {
+    "expanded": {
+      "A": "a\nb",
+      "B": "a\\nb"
+    },
+    "plain": {
+      "A": "a\nb",
+      "B": "a\\nb"
+    }
+  },
+  "expand": {
+    "expanded": {
+      "HOST": "db",
+      "URL": "db:5432"
+    },
+    "plain": {
+      "HOST": "db",
+      "URL": "${HOST}:5432"
+    }
+  },
+  "export": {
+    "expanded": {
+      "KEY": "v"
+    },
+    "plain": {
+      "KEY": "v"
+    }
+  },
+  "hash_in_value": {
+    "expanded": {
+      "HASH": "Tr0ub4dor"
+    },
+    "plain": {
+      "HASH": "Tr0ub4dor"
+    }
+  },
+  "hash_start": {
+    "expanded": {
+      "COLOR": ""
+    },
+    "plain": {
+      "COLOR": ""
+    }
+  },
+  "multiline": {
+    "expanded": {
+      "PEM": "-----BEGIN\nabc\n-----END"
+    },
+    "plain": {
+      "PEM": "-----BEGIN\nabc\n-----END"
+    }
+  },
+  "spaces": {
+    "expanded": {
+      "K2": "v",
+      "KEY": "v"
+    },
+    "plain": {
+      "K2": "v",
+      "KEY": "v"
+    }
+  },
+  "unterminated": {
+    "expanded": {
+      "K": "\"unterminated",
+      "L": "next"
+    },
+    "plain": {
+      "K": "\"unterminated",
+      "L": "next"
+    }
+  },
+  "value_comment": {
+    "expanded": {
+      "V_C": "x"
+    },
+    "plain": {
+      "V_C": "x"
+    }
+  }
+}

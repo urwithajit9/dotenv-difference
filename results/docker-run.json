@@ -1,0 +1,98 @@
+{
+  "bare": {
+    "exit": 0,
+    "values": {
+      "BARE": ""
+    }
+  },
+  "bom": {
+    "exit": 0,
+    "values": {
+      "K": "v"
+    }
+  },
+  "crlf": {
+    "exit": 0,
+    "values": {
+      "K": "v",
+      "L": "w"
+    }
+  },
+  "dup": {
+    "exit": 0,
+    "values": {
+      "K": "2"
+    }
+  },
+  "empty_comment2": {
+    "exit": 0,
+    "values": {
+      "EMPTY_C2": " #c"
+    }
+  },
+  "empty_comment": {
+    "exit": 0,
+    "values": {
+      "API_KEY": "   # fill this in later"
+    }
+  },
+  "empty_file": {
+    "exit": 0,
+    "values": {}
+  },
+  "escapes": {
+    "exit": 0,
+    "values": {
+      "A": "\"a\\nb\"",
+      "B": "'a\\nb'"
+    }
+  },
+  "expand": {
+    "exit": 0,
+    "values": {
+      "HOST": "db",
+      "URL": "${HOST}:5432"
+    }
+  },
+  "export": {
+    "exit": 125,
+    "stderr": "docker: --env-file: invalid env file (cases/export.env): variable 'export KEY' contains whitespaces\n\nRun 'docker run --help' for more information",
+    "values": {}
+  },
+  "hash_in_value": {
+    "exit": 0,
+    "values": {
+      "HASH": "Tr0ub4dor#3"
+    }
+  },
+  "hash_start": {
+    "exit": 0,
+    "values": {
+      "COLOR": "#ff0000"
+    }
+  },
+  "multiline": {
+    "exit": 0,
+    "values": {
+      "PEM": "\"-----BEGIN"
+    }
+  },
+  "spaces": {
+    "exit": 125,
+    "stderr": "docker: --env-file: invalid env file (cases/spaces.env): variable 'KEY ' contains whitespaces\n\nRun 'docker run --help' for more information",
+    "values": {}
+  },
+  "unterminated": {
+    "exit": 0,
+    "values": {
+      "K": "\"unterminated",
+      "L": "next"
+    }
+  },
+  "value_comment": {
+    "exit": 0,
+    "values": {
+      "V_C": "x # c"
+    }
+  }
+}

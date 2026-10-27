@@ -1,0 +1,24 @@
+{
+  "name": "dotenv-difference",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/urwithajit9/dotenv-difference.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/urwithajit9/dotenv-difference/issues"
+  },
+  "homepage": "https://github.com/urwithajit9/dotenv-difference#readme",
+  "dependencies": {
+    "dotenv": "18.0.9",
+    "dotenv-expand": "12.0.1"
+  }
+}
